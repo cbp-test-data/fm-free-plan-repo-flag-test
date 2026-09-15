@@ -30,7 +30,7 @@ Rox.register("demo", flags);
 
 const sdkKey = process.env.CLOUDBEES_SDK_KEY;
 
-if (!sdkKey || sdkKey === "878a6a6f-6d46-491b-9a39-d6be648ed6a2") {
+if (!sdkKey || sdkKey === "62156c5d-3064-431b-80a5-ac3e411ef04c") {
   console.error(
     "\nERROR: CLOUDBEES_SDK_KEY is not configured.\n" +
     "Copy .env.example to .env and add your CloudBees SDK key.\n"
